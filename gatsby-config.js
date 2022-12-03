@@ -38,5 +38,6 @@ module.exports = {
         icon: `${__dirname}/src/images/logos/logo.svg`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-styled-components`,
   ],
 }
