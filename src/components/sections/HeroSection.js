@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import PurchaseButton from "../buttons/PurchaseButton"
 import { themes } from "../styles/ColorStyles"
 import { H1, MediumText } from "../styles/TextSyles"
 
@@ -15,6 +16,7 @@ function HeroSection() {
             aliqua. Sed adipiscing diam donec adipiscing tristique risus nec
             feugiat.
           </Description>
+          <PurchaseButton title="Courses" subtitle="Click to Learn More" />
         </TextWrapper>
       </ContentWrapper>
     </Wrapper>
