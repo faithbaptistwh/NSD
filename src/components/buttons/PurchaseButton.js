@@ -10,7 +10,7 @@ export default function PurchaseButton(props) {
     <Link to="/page-2">
       <Wrapper>
         <IconWrapper>
-          <Icon src="images/icons/teacher.png" />
+          <Icon src="images/icons/courses.svg" />
           <Ring src="images/icons/icon-ring.svg" />
         </IconWrapper>
         <TextWrapper>
