@@ -29,6 +29,7 @@ export default HeroSection
 
 const Wrapper = styled.div`
   background: linear-gradient(180deg, #4316db 0%, #9076e7 100%);
+  overflow: hidden;
 `
 
 const ContentWrapper = styled.div`
@@ -37,6 +38,12 @@ const ContentWrapper = styled.div`
   padding: 200px 30px;
   display: grid;
   grid-template-columns: 360px auto;
+
+  @media (max-width: 450px) {
+    grid-template-columns: auto;
+    gap: 60px;
+    padding: 150px 20px 250px;
+  }
 `
 
 const TextWrapper = styled.div`
@@ -47,6 +54,10 @@ const TextWrapper = styled.div`
 
 const Title = styled(H1)`
   color: ${themes.dark.text1};
+
+  @media (max-width: 450px) {
+    font-size: 48px;
+  }
 `
 
 const Description = styled(MediumText)``

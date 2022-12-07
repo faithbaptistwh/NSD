@@ -13,6 +13,20 @@ export default function MockupAnimation() {
 
 const Wrapper = styled.div`
   position: relative;
+
+  @media (max-width: 768px) {
+    transform: scale(0.6) translateX(-175px);
+    transform-origin: top left;
+  }
+
+  @media (max-width: 450px) {
+    transform: scale(0.4) translateX(-125px);
+    transform-origin: top left;
+  }
+
+  div {
+    transform-origin: bottom left;
+  }
 `
 
 const MockupArea = styled.div`
